@@ -1,0 +1,13 @@
+name: firtpust
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  ronaldo_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Ronaldo's club
+        run: echo "Ronaldo plays for Manchester United"
